@@ -96,4 +96,14 @@ button:hover {
   p {
     font-size: 1rem;
   }
+  .firstPlayer-result {
+    color: #3b8a07;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
+  .secondPlayer-result {
+    color: #8908a3;
+    font-weight: bolder;
+    font-size: 2rem;
+  }
 }

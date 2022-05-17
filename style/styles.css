@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Tourney:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  justify-content: space-around;
+  padding: 0px 20px 0px 20px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ececec;
+  align-items: center;
+  color: #08819d;
+  text-align: center;
+}
+
+header {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Tourney", cursive;
+  color: #055264;
+}
+p {
+  font-size: 1.3rem;
+}
+
+.GameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 5px;
+}
+.dices {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.dice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  padding: 10px 15px;
+  background-color: #055264;
+  color: #ececec;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #08819d;
+}
+@media (max-width: 580px) {
+  header {
+    font-size: 2rem;
+  }
+  .GameContainer {
+    gap: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  p {
+    font-size: 1rem;
+  }
+}

@@ -31,10 +31,10 @@ function checkWinner(diceOne, diceTwo) {
   } else if (diceOne > diceTwo) {
     document.querySelector(
       ".resultado"
-    ).innerText = `Vencedor: Primeiro Jogador 🥳`;
+    ).innerHTML = `Vencedor: <span class="firstPlayer-result">Primeiro</span> Jogador 🥳`;
   } else if (diceTwo > diceOne) {
     document.querySelector(
       ".resultado"
-    ).innerText = `Vencedor: Segundo Jogador 🥳`;
+    ).innerHTML = `Vencedor: <span class="secondPlayer-result">Segundo</span> Jogador 🥳`;
   }
 }

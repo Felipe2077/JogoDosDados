@@ -28,7 +28,25 @@ header {
 p {
   font-size: 1.3rem;
 }
+.firstPlayer {
+  color: #3b8a07;
+  font-weight: bolder;
+}
 
+.secondPlayer {
+  color: #8908a3;
+  font-weight: bolder;
+}
+.firstPlayer-result {
+  color: #3b8a07;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+.secondPlayer-result {
+  color: #8908a3;
+  font-weight: bolder;
+  font-size: 3rem;
+}
 .GameContainer {
   display: flex;
   flex-direction: column;
